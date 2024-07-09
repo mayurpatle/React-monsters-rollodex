@@ -5,3 +5,26 @@
   grid-template-columns: 0.6fr 0.6fr 0.6fr 0.6fr;
   grid-gap: 20px;
 }
+
+
+/* Media query for tablets */
+@media (max-width: 1024px) {
+  .card-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .card-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Media query for small mobile devices */
+@media (max-width: 480px) {
+  .card-list {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+}

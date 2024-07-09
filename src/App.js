@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import  React ,   {Component}  from  'react' 
 import { SearchBox } from './Component/SearchBox/SearchBox.component';
 import './App.css';
